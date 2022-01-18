@@ -4,117 +4,36 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title> T O D O </title>
 </head>
 <body>
-<div class="">
-<img class="sheep" src="img/bg-desktop-light.3508d620.jpg" alt="mountain">
-    <div class="box">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>t o d o</h1>
-            <input id="todo-input" class="form-control form-control-lg" placeholder="Create a new todo...">
-                    <div id="todo-list">
-                        <ul>
-                            <li>
-                                Do the project
-                                <span class="actions">
-                                    <a class="delete">X</a>
-                                </span>
-                            </li>
-                            <li>
-                                Pick up groceies
-                                <span class="actions">
-                                    <a class="delete">X</a>
-                                </span>
-                            </li>
-                            <li>
-                                Complete Todo App Frontend Mentor
-                                <span class="actions">
-                                    <a class="delete">X</a>
-                                </span>
-                            </li>
-                            <li>
-                                Make some coffee
-                                <span class="actions">
-                                    <a class="delete">X</a>
-                                </span>
-                            </li>
-                            <li>
-                                Read the book
-                                <span class="actions">
-                                    <a class="delete">X</a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-            </div>
-            </div>
+<div>
+<img class="fa-mountain" src="img/bg-desktop-light.3508d620.jpg" alt="mountain">
+<div class="container">
+    <div class="header">
+        <h1> T O D O </h1>
+        <div id="date">
 
-<!--            <div>-->
-<!--                <div class="form-input">-->
-<!--                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">-->
-<!--            <label for='myText'></label><input type="text" id='myText' class="show" placeholder="Create a new-->
-<!--            <button class='deleteAll'>-->
-<!--                <i class="fas fa-trash"></i>-->
-<!--            </button>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <ul id="list">-->
-
-<!--            </ul>-->
-
-<!--        </div>-->
-
-<!--        <div class="center">-->
-<!--            <div class="col-12 col-md-8">-->
-<!--                <p class="center"> T O D O </p>-->
-<!--                <div id="main" class="card">-->
-<!--                    <div class="card-body row">-->
-<!--                        <form class="form-input form-group col-12" id="task-form">-->
-
-<!--                               <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">-->
-<!--                           <label>-->
-<!--                                    <input type="text" class=" form-border" placeholder="Create a new todo...">-->
-<!--                                </label>-->
-
-<!--                            <button type="submit" class="btn btn-primary">submit</button>-->
-<!--                        </form>-->
-<!--                    </div>-->
-<!--                        <div class="form-list">-->
-<!--                            <ul class="list-group">-->
-<!--                                <li class="list-group-item d-flex align-items-center">-->
-<!--                                    hgchgchgcghchgchgchgc-->
-<!--                                <i class="fas fa-times delete-item">X</i>-->
-<!--                                </li>-->
-<!--                            </ul>-->
-<!--                    <div class="row footer">-->
-<!--                     <div class="col-2 footer-item">-->
-<!--                         10 item left-->
-<!--                     </div>-->
-<!--                        <div class="col-2 footer-all">-->
-<!--                            <button class="button-all" value="all">ALL</button>-->
-<!--                        </div>-->
-<!--                        <div class="col-2 footer-all">-->
-<!--                            <button class="button-all" value="active">Active</button>-->
-<!--                        </div>-->
-<!--                        <div class="col-2 footer-all">-->
-<!--                            <button class="button-all" value="complete">Complete</button>-->
-<!--                        </div>-->
-<!--                        <div class="col-4 footer-all">-->
-<!--                            <button class="button-all" value="clear" id="clear-task">Clear Completed</button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                        </div>-->
-
-
-<!--                </div>-->
-<!--            </div>-->
         </div>
     </div>
+    <div class="content">
+        <div class="add-item">
+            <i  class="fa fa-plus-circle"></i>
+            <label for="input"></label><input type="text" id="input" placeholder="todo...">
+           <i class="fa-circle"></i>
+        <ul id="list">
+
+        </ul>
+
 </div>
+</div>
+</div>
+</div>
+
+
+
 <script src="todo.js"></script>
 </body>
 </html>
