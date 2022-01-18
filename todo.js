@@ -10,6 +10,8 @@ const UNCHECK = "fa-circle";
 const LINE_THROUGH = "line-through";
 
 
+
+
 //variable
 let LIST, id;
 
@@ -42,11 +44,11 @@ function addToDo(toDo, id, done, trash) {
     const LINE = done ? LINE_THROUGH : "";
     const item = `
     <li class="item row">
-                <i class="fa ${DONE} col-1 complete" job="complete" id="${id}">
+                <i class="fa ${DONE} col-1 pt-1 complete" job="complete" id="${id}">
 
                 </i>
                 <p class="text col-9 ${LINE}">${toDo}</p>
-                <i class="fa-check-circle col-2" job="delete" id="${id}"></i>
+                <i class="fa fa-trash col-2" job="delete" id="${id}"></i>
 
            </li> `
 

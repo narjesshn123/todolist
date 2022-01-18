@@ -3,10 +3,24 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+
 .mountain{
     height: 25rem;
 
 
+}
+h1{
+    color: white;
+    padding-top: 1rem;
+    padding-left: 2.8rem;
+}
+#date{
+    color: white;
+    padding-top: 1rem;
+    padding-left: 2.8rem;
+}
+.fa-plus-circle{
+    color: white;
 }
 .container{
     justify-items: center;
@@ -16,11 +30,16 @@ body{
     width: 99%;
 }
 .item{
-    background-color: white;padding-top: 1rem;
+    background-color: white;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-bottom: 1px solid #e4e5f1;
 }
 #list{
-    padding-top: 3rem;
-    width: 25rem;
+    padding-top: 2rem;
+    width: 25.2rem;
+    padding-left: 2.8rem;
 }
 .line-through{
     color: darkgray;
@@ -42,3 +61,24 @@ body{
 #todo-input{
     border-color: transparent;
 }
+#input {
+    width: 24rem;
+    border-radius: 5px;
+    border: none;
+    height: 3rem;
+
+}
+.add-item{
+    padding-top: 2rem;
+}
+.fa-circle{
+    color: #e4e5f1;
+}
+.fa-trash{
+    background-color: white;
+    color: grey;
+}
+
+
+
+
